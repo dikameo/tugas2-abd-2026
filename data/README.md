@@ -187,12 +187,3 @@ sku_master.sku_id  ──▶ sku_inventory_flags.csv   (hanya versi contaminated
 
 Integritas referensial telah divalidasi oleh pembuat dataset: tidak ada foreign key yatim dan tidak ada ketidakcocokan antara `total_value` dengan rumusnya.
 
----
-
-## Hal yang Perlu Diperhatikan Sebelum Pemodelan
-
-- Hanya `sales_transactions` yang diskalakan ke 10 juta baris. Jumlah toko, SKU, pelanggan, dan promosi tetap.
-- Semua toko sudah buka sebelum 2022, sehingga setiap toko punya data di seluruh periode 2022–2025.
-- `registration_date` pada `customer_master.csv` tidak bergantung pada aktivitas transaksi. Transaksi pertama pelanggan bisa saja terjadi sebelum tanggal registrasi.
-- Sekitar 21% transaksi membawa promosi.
-- Dataset ini cocok untuk analisis tren dan musiman, segmentasi pelanggan (RFM), analisis keranjang belanja, optimasi inventori, efektivitas promosi, dan deteksi anomali stok.

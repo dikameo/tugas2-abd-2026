@@ -1,9 +1,9 @@
 # Identitas Kelompok
 
-Nama Kelompok: [Nama Kelompok]
+Nama Kelompok: Dika Dan Ahmad
 
 | No | Nama Lengkap | NIM | Akun GitHub |
 |:--:|--------------|-----|-------------|
-| 1 | NamaDepan NamaBelakang | 200510370311000 | @username1 |
-| 2 | NamaDepan NamaBelakang | 200510370311000 | @username2 |
-| 3 | NamaDepan NamaBelakang | 200510370311000 | @username3 |
+| 1 | Wahyu Andika | 202310370311075 | @dikameo |
+| 2 | Ahmad Nur Mu'minin | 202310370311089 | @MipowGITHUB |
+
